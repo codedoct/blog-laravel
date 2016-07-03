@@ -1,0 +1,32 @@
+body {
+	margin: 0 0 0 0;
+	width: 100%;
+	background-color: #e9eaee;
+	text-align: center;
+}
+.isi{
+	margin-top: 20px;
+	padding: 20px 2%;
+	text-align: left;
+	width: 96%;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #e1e8ed;
+	overflow: auto;
+}
+button,
+.btn{
+    background-color: #e5e5e5;
+    padding: 11px 20px;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    cursor: pointer;
+    border: none;
+    &:hover {
+		color: lighten(black, 10%);
+		text-decoration: none;
+		background-color: #ededed;
+	}
+}
+@import 'header';
+@import 'footer';
