@@ -79,3 +79,11 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
+
+// file constant
+require_once app_path().'/constants.php';
+
+App::missing(function(Exception $exception)
+{
+    return Response::view('web.404-not-found', array(), 404);
+});

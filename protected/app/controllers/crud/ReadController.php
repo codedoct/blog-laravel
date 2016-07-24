@@ -1,6 +1,9 @@
-<?php
+<?php namespace Controller\Crud;
 
-class ReadController extends BaseController 
+use Model\User;
+use \View;
+
+class ReadController extends \BaseController 
 {
 	public function readUsers()
 	{

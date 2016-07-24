@@ -1,15 +1,20 @@
-<?php
+<?php namespace Controller\Crud;
 
-class UpdateController extends BaseController
+use Model\User;
+use \Input;
+use \View;
+use \Validator;
+use \Hash;
+use \Redirect;
+
+class CreateController extends \BaseController 
 {
-	public function updateUser($id)
+	public function createUser()
 	{
-		$users = User::where('id', $id)->first();
-		//dd($users);
-		return View::make('web.updateUser')->with('data_user', $users);
+		return View::make('web.createUser');
 	}
 
-	public function updatepostUser($id)
+	public function createpostUser()
 	{
 		//var_dump($_POST);
 		$validator = Validator::make(
@@ -18,19 +23,21 @@ class UpdateController extends BaseController
 				"name"					=> "required",
 				"username"				=> "required",
 				"email"					=> "required|email|unique:users,email",
+	    		"password"              => "required|min:6",
 			)
 		);
 		if ($validator->passes()) {
-	    	$user = User::find($id);
+	    	$user = new User;
 			$user->name     = Input::get('name');
 			$user->username = Input::get('username');
 			$user->email    = Input::get('email');
+		    $user->password = Hash::make(Input::get('password'));
 		    $user->save();
 
 	    	return Redirect::to('users');
 	    }
 	    else {
-	    	return Redirect::to('update/'.$id)
+	    	return Redirect::to('create')
 	    		->withErrors($validator)
 	    		->withInput();
 	    }

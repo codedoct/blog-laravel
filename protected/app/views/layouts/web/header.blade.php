@@ -1,7 +1,8 @@
 <div class="header">
 	<div class="banner">
 		<div class="welcome">Welcome</div>
-		<div class="gambar"><a href="#"><img src="//2.bp.blogspot.com/-PvB3-m8zpCE/VwlLQ6WzapI/AAAAAAAAAGY/ExOOBDe1UQAB0YwGVoDbEa6FNJVY5lGLw/s80/mata.png" style="width:"100px" height="129px";"></a></div>
+		{{-- code dibawah ini menggunakan constant variabel --}}
+		<div class="gambar"><a href="#"><img src="{{ IMAGE_HEADER }}" style="width:"100px" height="129px";"></a></div>
 	</div>
 	<hr>
 	<div class="menu">

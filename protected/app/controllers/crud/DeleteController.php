@@ -1,6 +1,9 @@
-<?php
+<?php namespace Controller\Crud;
 
-class DeleteController extends BaseController 
+use Model\User;
+use \Redirect;
+
+class DeleteController extends \BaseController 
 {
 	public function deleteUser($id)
 	{
