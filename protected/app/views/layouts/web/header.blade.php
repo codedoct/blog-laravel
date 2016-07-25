@@ -11,7 +11,7 @@
 				<div class="dropdown">
 				  <button class="button">Menu(css)</button>
 				  <div class="dropdown-content">
-				    <a href="{{ URL::to('users')}}">User</a>
+				    <a href="{{ URL::to('crud/users')}}">User</a>
 				    <a href="#">Link 2</a>
 				    <a href="#">Link 3</a>
 				  </div>
@@ -21,7 +21,7 @@
 			  <div class="dropdown-script">
 				  <button onclick="myFunction()" class="dropbtn">Menu(css)</button>
 				  <div id="myDropdown" class="dropdown-content-script">
-				    <a href="{{ URL::to('users')}}">User</a>
+				    <a href="{{ URL::to('crud/users')}}">User</a>
 				    <a href="#">Link 2</a>
 				    <a href="#">Link 3</a>
 				  </div>

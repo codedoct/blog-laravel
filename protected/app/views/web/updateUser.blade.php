@@ -7,12 +7,12 @@
 			<tr>
 				<td>Name</td>
 				<td nowrap>:</td>
-				<td><input type="text" name="name" value="{{ $data_user['name'] }}"><span style="color:red"><?php echo $errors->first('email') ?></td>
+				<td><input type="text" name="name" value="{{ $data_user['name'] }}"><span style="color:red"><?php echo $errors->first('name') ?></td>
 			</tr>
 			<tr>
 				<td>Username</td>
 				<td nowrap>:</td>
-				<td><input type="text" name="username" value="{{ $data_user['username'] }}"><span style="color:red"><?php echo $errors->first('email') ?></td>
+				<td><input type="text" name="username" value="{{ $data_user['username'] }}"><span style="color:red"><?php echo $errors->first('username') ?></td>
 			</tr>
 			<tr>
 				<td>Email</td>
@@ -22,7 +22,7 @@
 			<tr>
 				<td colspan="3">
 					<br>
-					<input type="submit" class="btn" value="Submit">
+					<input type="submit" class="btn" value="Save">
 				</td>
 			</tr>
 		</table>

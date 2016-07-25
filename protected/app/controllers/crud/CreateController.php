@@ -34,10 +34,10 @@ class CreateController extends \BaseController
 		    $user->password = Hash::make(Input::get('password'));
 		    $user->save();
 
-	    	return Redirect::to('users');
+	    	return Redirect::to('crud/users');
 	    }
 	    else {
-	    	return Redirect::to('create')
+	    	return Redirect::to('crud/create')
 	    		->withErrors($validator)
 	    		->withInput();
 	    }

@@ -33,10 +33,10 @@ class UpdateController extends \BaseController
 			$user->email    = Input::get('email');
 		    $user->save();
 
-	    	return Redirect::to('users');
+	    	return Redirect::to('crud/users');
 	    }
 	    else {
-	    	return Redirect::to('update/'.$id)
+	    	return Redirect::to('crud/update/'.$id)
 	    		->withErrors($validator)
 	    		->withInput();
 	    }

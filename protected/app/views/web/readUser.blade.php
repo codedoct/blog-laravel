@@ -23,13 +23,13 @@
 	         <td>{{ $users->created_at }}</td>
 	         <td>{{ $users->updated_at }}</td>
 	         <td>
-	         	<a href="{{ URL::to('update/'.$users->id) }}">Edit<br>
-	         	<a href="{{ URL::to('delete/'.$users->id) }}">Delete
+	         	<a href="{{ URL::to('crud/update/'.$users->id) }}">Edit<br>
+	         	<a href="{{ URL::to('crud/delete/'.$users->id) }}">Delete
 	         </td>
 	      </tr>
 	    @endforeach
 	  </table>
 	  <br>
-	  <button onclick="location.href='{{ URL::to('create') }}';">Create</button>
+	  <button onclick="location.href='{{ URL::to('crud/create') }}';">Create</button>
 	</div>
 @stop

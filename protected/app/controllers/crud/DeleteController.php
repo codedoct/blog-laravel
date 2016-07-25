@@ -9,6 +9,6 @@ class DeleteController extends \BaseController
 	{
 		$user = User::where('id', $id)->first();
 		$user->delete();
-		return Redirect::to('users');
+		return Redirect::to('crud/users');
 	}
 }

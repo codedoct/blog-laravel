@@ -27,7 +27,7 @@
 			<tr>
 				<td colspan="3">
 					<br>
-					<input type="submit" class="btn" value="Submit">
+					<input type="submit" class="btn" value="Create">
 				</td>
 			</tr>
 		</table>
