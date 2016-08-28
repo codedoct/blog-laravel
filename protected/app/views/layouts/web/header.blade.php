@@ -12,8 +12,8 @@
 				  <button class="button">Menu(css)</button>
 				  <div class="dropdown-content">
 				    <a href="{{ URL::to('crud/users')}}">User</a>
-				    <a href="#">Link 2</a>
-				    <a href="#">Link 3</a>
+				    <a href="{{ URL::to('book')}}">Index Book</a>
+				    <a href="{{ URL::to('javaScript/js1')}}">Belajar Script</a>
 				  </div>
 				</div>
 			</li>

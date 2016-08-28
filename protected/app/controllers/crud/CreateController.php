@@ -26,6 +26,7 @@ class CreateController extends \BaseController
 	    		"password"              => "required|min:6",
 			)
 		);
+		// dd($_POST);
 		if ($validator->passes()) {
 	    	$user = new User;
 			$user->name     = Input::get('name');
@@ -33,7 +34,7 @@ class CreateController extends \BaseController
 			$user->email    = Input::get('email');
 		    $user->password = Hash::make(Input::get('password'));
 		    $user->save();
-
+		    // dd($_POST);
 	    	return Redirect::to('crud/users');
 	    }
 	    else {

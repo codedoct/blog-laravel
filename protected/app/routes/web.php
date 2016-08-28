@@ -3,6 +3,10 @@
 /*-----------WEB-----------*/
 Route::get('/', 'HomeController@showWelcome');
 
+
+//////////
+// CRUD //
+//////////
 //pahamilah group route dibawah
 Route::group(array('prefix' => 'crud'), function(){
 	Route::get('users', 'Controller\Crud\ReadController@readUsers');
@@ -15,3 +19,15 @@ Route::group(array('prefix' => 'crud'), function(){
 
 	Route::get('delete/{id}', 'Controller\Crud\DeleteController@deleteUser');
 });
+
+/////////////////
+// java script //
+/////////////////
+Route::group(array('prefix' => 'javaScript'), function(){
+	Route::get('js1', 'Controller\belajar_js\Js1Controller@Index');
+});
+
+//////////
+// BOOK //
+//////////
+Route::get('book', 'Controller\BookController@Index');
