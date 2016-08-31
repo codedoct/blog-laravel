@@ -23,7 +23,7 @@ class UpdateController extends \BaseController
 			array(
 				"name"					=> "required",
 				"username"				=> "required",
-				"email"					=> "required|email|unique:users,email",
+				"email"					=> "required|email",
 			)
 		);
 		if ($validator->passes()) {

@@ -1,0 +1,14 @@
+.user-list {
+  width: 350px;
+  margin: 0 60px; }
+  .user-list .box-user {
+    background-color: #F3F5F7;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    padding: 20px; }
+    .user-list .box-user .tombol {
+      margin-top: 10px;
+      text-align: right; }
+
+/*# sourceMappingURL=js2.css.map */

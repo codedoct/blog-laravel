@@ -14,6 +14,7 @@
 				    <a href="{{ URL::to('crud/users')}}">User</a>
 				    <a href="{{ URL::to('book')}}">Index Book</a>
 				    <a href="{{ URL::to('javaScript/js1')}}">Belajar Script</a>
+				    <a href="{{ URL::to('javaScript/js2')}}">Belajar Script2</a>
 				  </div>
 				</div>
 			</li>

@@ -1,0 +1,15 @@
+.user-list{
+	width: 350px;
+	margin: 0 60px;
+	.box-user{
+		background-color: #F3F5F7;
+		border: 1px solid #ddd;
+		border-radius: 2px;
+		margin-bottom: 30px;
+		padding: 20px;
+		.tombol{
+			margin-top: 10px;
+			text-align: right;
+		}
+	}
+}

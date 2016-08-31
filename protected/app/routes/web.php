@@ -25,6 +25,7 @@ Route::group(array('prefix' => 'crud'), function(){
 /////////////////
 Route::group(array('prefix' => 'javaScript'), function(){
 	Route::get('js1', 'Controller\belajar_js\Js1Controller@Index');
+	Route::get('js2', 'Controller\belajar_js\Js2Controller@Index');
 });
 
 //////////

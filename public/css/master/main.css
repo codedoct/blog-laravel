@@ -4,6 +4,9 @@ body {
   background-color: #e9eaee;
   text-align: center; }
 
+.hidden {
+  display: none; }
+
 .isi {
   margin-top: 20px;
   padding: 20px 2%;
