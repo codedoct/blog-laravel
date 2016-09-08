@@ -15,6 +15,8 @@
 				    <a href="{{ URL::to('book')}}">Index Book</a>
 				    <a href="{{ URL::to('javaScript/js1')}}">Belajar Script</a>
 				    <a href="{{ URL::to('javaScript/js2')}}">Belajar Script2</a>
+				    <a href="{{ URL::to('javaScript/js3')}}">Belajar Script3</a>
+				    <a href="{{ URL::to('javaScript/js4')}}">Belajar Script4</a>
 				  </div>
 				</div>
 			</li>
