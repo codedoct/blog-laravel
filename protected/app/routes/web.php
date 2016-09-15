@@ -28,6 +28,7 @@ Route::group(array('prefix' => 'javaScript'), function(){
 	Route::get('js2', 'Controller\belajar_js\Js2Controller@Index');
 	Route::get('js3', 'Controller\belajar_js\Js3Controller@Index');
 	Route::get('js4', 'Controller\belajar_js\Js4Controller@Index');
+	Route::get('js5', 'Controller\belajar_js\Js5Controller@Index');
 });
 
 //////////
