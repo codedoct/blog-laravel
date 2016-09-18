@@ -29,6 +29,14 @@ Route::group(array('prefix' => 'javaScript'), function(){
 	Route::get('js3', 'Controller\belajar_js\Js3Controller@Index');
 	Route::get('js4', 'Controller\belajar_js\Js4Controller@Index');
 	Route::get('js5', 'Controller\belajar_js\Js5Controller@Index');
+	Route::group(array('prefix' => 'js6'), function(){
+		Route::get('', 'Controller\belajar_js\Js6Controller@Index');
+		Route::post('', 'Controller\belajar_js\Js6Controller@addTestAjax');
+	});
+	Route::group(array('prefix' => 'js7'), function(){
+		Route::get('', 'Controller\belajar_js\Js7Controller@Index');
+		Route::post('', 'Controller\belajar_js\Js7Controller@update');
+	});
 });
 
 //////////

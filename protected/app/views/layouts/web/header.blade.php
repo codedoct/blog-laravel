@@ -18,6 +18,8 @@
 				    <a href="{{ URL::to('javaScript/js3')}}">Belajar Script3</a>
 				    <a href="{{ URL::to('javaScript/js4')}}">Belajar Script4</a>
 				    <a href="{{ URL::to('javaScript/js5')}}">Belajar Script5</a>
+				    <a href="{{ URL::to('javaScript/js6')}}">Belajar Script6</a>
+				    <a href="{{ URL::to('javaScript/js7')}}">Belajar Script7</a>
 				  </div>
 				</div>
 			</li>
