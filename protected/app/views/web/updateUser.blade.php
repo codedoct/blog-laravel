@@ -22,7 +22,7 @@
 			<tr>
 				<td colspan="3">
 					<br>
-					<input type="submit" class="btn" value="Save">
+					<input type="submit" class="btn btn-default" value="Save">
 				</td>
 			</tr>
 		</table>

@@ -47,11 +47,11 @@
 					</table>
 					<div class="tombol">
 						<div class="edit">
-							<button type="button" onclick="edit(this, event)">Edit</button>
+							<button type="button" class="btn btn-default" onclick="edit(this, event)">Edit</button>
 						</div>
 						<div class="save hidden">
-							<button type="button" onclick="back(this, event)">Return</button>
-							<input type="submit" class="btn" value="Save">
+							<button type="button" class="btn btn-default" onclick="back(this, event)">Return</button>
+							<input type="submit" class="btn btn-success" value="Save">
 						</div>
 					</div>
 				</div>

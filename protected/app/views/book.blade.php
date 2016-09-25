@@ -40,92 +40,94 @@
 @stop
 
 @section('content')
-<div class="daftar-isi">
-	<h2>My Book</h2>
-	<ul>
-		<li><a href="#test1">Test 1</a></li>
-		<li><a href="#test2">Test 2</a></li>
-		<li><a href="#test3">Test 3</a></li>
-		<li><a href="#test4">Test 4</a></li>
-	</ul>
-</div>
-
-<!-- Begin book -->
-<div class="book">
-	<div id="test1">
-		<h4>Test 1</h4>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+<div class="isi">
+	<div class="daftar-isi">
+		<h2>My Book</h2>
+		<ul>
+			<li><a href="#test1">Test 1</a></li>
+			<li><a href="#test2">Test 2</a></li>
+			<li><a href="#test3">Test 3</a></li>
+			<li><a href="#test4">Test 4</a></li>
+		</ul>
 	</div>
 
-	<div id="test2">
-		<h4>Test 2</h4>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+	<!-- Begin book -->
+	<div class="book">
+		<div id="test1">
+			<h4>Test 1</h4>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-	</div>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+		</div>
 
-	<div id="test3">
-		<h4>Test 3</h4>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+		<div id="test2">
+			<h4>Test 2</h4>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-	</div>
-	
-	<div id="test4">
-		<h4>Test 4</h4>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+		</div>
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+		<div id="test3">
+			<h4>Test 3</h4>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+		</div>
+		
+		<div id="test4">
+			<h4>Test 4</h4>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam saepe voluptatem veritatis expedita nihil dolores, distinctio aperiam. Necessitatibus vitae molestias natus fugiat rerum sequi enim nam, nesciunt, et quam asperiores.
+		</div>
 	</div>
 </div>
 @stop
