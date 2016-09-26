@@ -61,5 +61,8 @@
 			<label>Data user empty ...</label>
 		@endif
 	</div>
+	<div class="text-center">	
+		{{ $content['users']->appends(Input::except(array('page')))->links() }}
+	</div>
 </div>
 @stop

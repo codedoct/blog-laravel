@@ -7,7 +7,7 @@ Class Js2Controller Extends \BaseController
 {
 	public function Index()
 	{
-		$users = User::all();
+		$users = User::paginate(2);
 
 		$content['users'] = $users;
 
