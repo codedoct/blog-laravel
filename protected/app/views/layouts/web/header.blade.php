@@ -25,11 +25,10 @@
 			</li>
 			<li>
 			  <div class="dropdown-script">
-				  <button onclick="myFunction()" class="dropbtn btn btn-default">Menu(css)</button>
+				  <button onclick="myFunction()" class="dropbtn btn btn-default">Translate</button>
 				  <div id="myDropdown" class="dropdown-content-script">
-				    <a href="{{ URL::to('crud/users')}}">User</a>
-				    <a href="#">Link 2</a>
-				    <a href="#">Link 3</a>
+				    <a href="{{ URL::to('lang/en') }}">English</a>
+				    <a href="{{ URL::to('lang/ina') }}">Indonesia</a>
 				  </div>
 			  </div>
 			</li>

@@ -3,6 +3,12 @@
 /*-----------WEB-----------*/
 Route::get('/', 'HomeController@showWelcome');
 
+//Localization
+Route::get('lang/{lang}', function($lang)
+{
+	Session::put('lang', $lang);
+    return Redirect::back();
+});
 
 //////////
 // CRUD //

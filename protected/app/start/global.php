@@ -87,3 +87,6 @@ App::missing(function(Exception $exception)
 {
     return Response::view('web.404-not-found', array(), 404);
 });
+
+//language
+App::setLocale(Session::get('lang', 'en'));
