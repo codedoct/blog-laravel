@@ -3,6 +3,11 @@
 /*-----------WEB-----------*/
 Route::get('/', 'HomeController@showWelcome');
 
+//login
+Route::get('login', 'Controller\Auth\AuthController@indexLogin');
+Route::post('login', 'Controller\Auth\AuthController@login');
+Route::get('logout', 'Controller\Auth\AuthController@logout');
+
 //Localization
 Route::get('lang/{lang}', function($lang)
 {

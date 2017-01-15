@@ -4,3 +4,19 @@
 
 	// Localization
 	define('trans', 'Lang::get');
+
+	// Session Logging
+	define('SESSION_LOG'		, 'logging');
+	define('SESSION_LOG_TYPE'	, 'logging.type');
+	define('SESSION_LOG_MODEL'	, 'logging.model');
+	define('SESSION_LOG_STATUS'	, 'logging.status');
+
+	// Logging type
+	define('LOGGING_CREATE'		, 'create');
+	define('LOGGING_UPDATE'		, 'update');
+	define('LOGGING_DELETE'		, 'delete');
+	define('LOGGING_RESTORE'	, 'restore');
+
+	//Auth
+	define('OK', 'OK');
+	define('INVALID_CREDENTIAL', 'INVALID_CREDENTIAL');

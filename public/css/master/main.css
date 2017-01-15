@@ -19,6 +19,12 @@ body {
   border: 1px solid #e1e8ed;
   overflow: auto; }
 
+.login {
+  text-align: center; }
+  .login .form-login {
+    width: 25%;
+    display: inline-block; }
+
 .header {
   text-align: left;
   margin-top: 10px;

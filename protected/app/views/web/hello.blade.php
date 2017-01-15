@@ -7,7 +7,7 @@
 
 @section('content')
 <div class="isi">
-	<h4>{{ trans('translate.welcome_to_codedoct'); }}</h4>
+	<h4>{{ trans('translate.welcome_to_codedoct'); }} @if(Auth::user()){{Auth::user()->name}}@else Guest @endif</h4>
 	<br>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt facilis, dolore similique maiores? Doloribus, asperiores. Iusto debitis tempora velit repellat sed autem, quaerat commodi, necessitatibus soluta quos libero voluptatibus eum.</p>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt facilis, dolore similique maiores? Doloribus, asperiores. Iusto debitis tempora velit repellat sed autem, quaerat commodi, necessitatibus soluta quos libero voluptatibus eum.</p>

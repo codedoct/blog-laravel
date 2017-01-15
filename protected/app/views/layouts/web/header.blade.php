@@ -34,7 +34,11 @@
 			</li>
 		</div>
 		<div class="kanan">
-			<li onclick="location.href='{{ URL::to('/') }}';">Login</li>
+			@if(Auth::user())
+				<li onclick="if(confirm('Are you sure to logout?')) location.href='{{ URL::to('logout') }}';">Logout</li>
+			@else
+				<li onclick="location.href='{{ URL::to('login') }}';">Login</li>
+			@endif
 			<li onclick="location.href='{{ URL::to('/') }}';">Cari</li>
 		</div>
 	</div>
