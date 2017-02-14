@@ -39,7 +39,7 @@
 			@else
 				<li onclick="location.href='{{ URL::to('login') }}';">Login</li>
 			@endif
-			<li onclick="location.href='{{ URL::to('/') }}';">Cari</li>
+			<li onclick="location.href='{{ URL::to('register') }}';">Register</li>
 		</div>
 	</div>
 </div>

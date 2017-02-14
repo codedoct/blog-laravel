@@ -7,6 +7,8 @@ Route::get('/', 'HomeController@showWelcome');
 Route::get('login', 'Controller\Auth\AuthController@indexLogin');
 Route::post('login', 'Controller\Auth\AuthController@login');
 Route::get('logout', 'Controller\Auth\AuthController@logout');
+Route::get('register', 'Controller\Auth\AuthController@indexRegister');
+Route::post('register', 'Controller\Auth\AuthController@register');
 
 //Localization
 Route::get('lang/{lang}', function($lang)

@@ -7,6 +7,7 @@ use \Validator;
 use \Redirect;
 use \Auth;
 use \Session;
+use \Hash;
 
 class AuthController extends \BaseController
 {
@@ -63,5 +64,25 @@ class AuthController extends \BaseController
 		Session::put(SESSION_LOG_MODEL, $user);
 
 		return Redirect::to('');
+	}
+
+	public function indexRegister()
+	{
+		return View::make('auth.register');
+	}
+
+	public function register()
+	{
+		$user = new User;
+		$user->name = Input::get('fullname');
+		$user->username = Input::get('username');
+		$user->email = Input::get('email');
+		$user->password = Hash::make(Input::get('password'));
+
+		if(!$user->save()) {
+			throw new \ValidationException($user->errors());
+		}
+
+		return Redirect::to('login');
 	}
 }
