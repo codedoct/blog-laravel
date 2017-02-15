@@ -9,9 +9,14 @@ class DatabaseSeeder extends Seeder {
 	 */
 	public function run()
 	{
-		Eloquent::unguard();
+		// Eloquent::unguard();
+		DB::statement('SET FOREIGN_KEY_CHECKS=0;');
 
 		$this->call('UserSeeder');
+		$this->call('AddressSeeder');
+
+		DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+		\Cache::flush();
 	}
 
 }
