@@ -12,7 +12,7 @@
 				       <th>EMAIL</th>
 				       <th>PASSWORD</th>
 				       <th>CREATED AT</th>
-				       <th>UPDATED AT</th>
+				       <th>SHOW ADDRESS</th>
 				       <th>ACTION</th>
 				    </tr>
 			  	</thead>
@@ -25,7 +25,9 @@
 				         <td>{{ $users->email }}</td>
 				         <td>{{ $users->password }}</td>
 				         <td>{{ $users->created_at }}</td>
-				         <td>{{ $users->updated_at }}</td>
+				         <td>
+				         	<a href="{{ URL::to('relation/address/'.$users->id) }}">Address list<br>
+				         </td>
 				         <td>
 				         	<a href="{{ URL::to('crud/update/'.$users->id) }}">Edit<br>
 				         	<a href="{{ URL::to('crud/delete/'.$users->id) }}">Delete

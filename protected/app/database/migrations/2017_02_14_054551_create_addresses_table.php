@@ -14,6 +14,7 @@ class CreateAddressesTable extends Migration {
 	{
 		Schema::create('addresses', function($table){
 			$table->integer('id', true);
+			$table->integer('user_id')->index('addresses_user_id')->nullable();
 			$table->string('name_address');
 			$table->string('city');
 			$table->string('province');
@@ -24,9 +25,9 @@ class CreateAddressesTable extends Migration {
 			$table->softDeletes();
 		});
 
-		Schema::table('users', function(Blueprint $table)
+		Schema::table('addresses', function(Blueprint $table)
         {
-            $table->foreign('address_id', 'users_ibfk_1')->references('id')->on('addresses')->onUpdate('CASCADE')->onDelete('CASCADE');
+            $table->foreign('user_id', 'addresses_ibfk_1')->references('id')->on('users')->onUpdate('CASCADE')->onDelete('CASCADE');
         });
 	}
 
@@ -37,9 +38,9 @@ class CreateAddressesTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::table('users', function(Blueprint $table)
+		Schema::table('addresses', function(Blueprint $table)
 		{
-			$table->dropForeign('users_ibfk_1');
+			$table->dropForeign('addresses_ibfk_1');
 		});
 
 		Schema::drop('addresses');

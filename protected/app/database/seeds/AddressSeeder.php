@@ -8,6 +8,7 @@ class AddressSeeder extends Seeder
         DB::table('addresses')->insert(array (
             array (
                 'id' => 1,
+                'user_id' => 1,
                 'name_address'     => 'Alamat Mihawk',
                 'city' => 'north blue',
                 'province'    => 'fusa',
@@ -17,6 +18,7 @@ class AddressSeeder extends Seeder
             ),
             array (
                 'id' => 2,
+                'user_id' => 2,
                 'name_address'     => 'Alamat Law',
                 'city' => 'konoha',
                 'province'    => 'wano',

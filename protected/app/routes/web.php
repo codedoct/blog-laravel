@@ -33,6 +33,14 @@ Route::group(array('prefix' => 'crud'), function(){
 	Route::get('delete/{id}', 'Controller\Crud\DeleteController@deleteUser');
 });
 
+//////////////
+// RELATION //
+//////////////
+//pahamilah group route dibawah
+Route::group(array('prefix' => 'relation'), function(){
+	Route::get('address/{user_id}', 'Controller\Relation\UserController@getUserDetail');
+});
+
 /////////////////
 // java script //
 /////////////////
