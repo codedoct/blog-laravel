@@ -38,7 +38,7 @@ Route::group(array('prefix' => 'crud'), function(){
 //////////////
 //pahamilah group route dibawah
 Route::group(array('prefix' => 'relation'), function(){
-	Route::get('address/{user_id}', 'Controller\Relation\UserController@getUserDetail');
+	Route::get('detail/{user_id}', 'Controller\Relation\UserController@getUserDetail');
 });
 
 /////////////////
