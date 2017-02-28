@@ -13,7 +13,6 @@ class UserController extends \BaseController
 			$address = $user->addresses;
 			$role = $user->role;
 		}
-		dd($user->toArray());
 		return View::make('web.relation.show-user-detail')->with('user', $user);
 	}
 }

@@ -48,8 +48,25 @@
 			    	@endforelse
 			    </tbody>
 			</table>
+			<br>
+			<table class="table table-bordered table-hover">
+			  	<thead>
+			  		<tr>
+						<th>Role ID</th>
+						<th>Role Name</th>
+				    </tr>
+			  	</thead>
+			  	<tbody>
+			  		@if($user['role'])
+					    <tr>
+							<td>{{ $user['role']->id }}</td>
+							<td>{{ $user['role']->name }}</td>
+					    </tr>
+			    	@else
+			    		Role not found
+			    	@endif
+			    </tbody>
+			</table>
 		</div>
-	  <br>
-	  <button class="btn btn-default" type="button">Create</button>
 	</div>
 @stop
