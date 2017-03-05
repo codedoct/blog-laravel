@@ -67,6 +67,25 @@
 			    	@endif
 			    </tbody>
 			</table>
+			<br>
+			<table class="table table-bordered table-hover">
+			  	<thead>
+			  		<tr>
+						<th>Company Name</th>
+						<th>Position</th>
+				    </tr>
+			  	</thead>
+			  	<tbody>
+			  		@if($user['company'])
+					    <tr>
+							<td>{{ $user['company']->name }}</td>
+							<td>{{ $user['company']->position }}</td>
+					    </tr>
+			    	@else
+			    		Role not found
+			    	@endif
+			    </tbody>
+			</table>
 		</div>
 	</div>
 @stop

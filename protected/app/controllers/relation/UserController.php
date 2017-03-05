@@ -12,6 +12,7 @@ class UserController extends \BaseController
 		if($user){
 			$address = $user->addresses;
 			$role = $user->role;
+			$company = $user->company;
 		}
 		return View::make('web.relation.show-user-detail')->with('user', $user);
 	}

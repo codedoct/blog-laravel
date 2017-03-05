@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder {
 		$this->call('UserSeeder');
 		$this->call('AddressSeeder');
 		$this->call('RoleSeeder');
+		$this->call('CompanySeeder');
 
 		DB::statement('SET FOREIGN_KEY_CHECKS=1;');
 		\Cache::flush();

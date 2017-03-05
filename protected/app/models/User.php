@@ -35,4 +35,9 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
     {
         return $this->belongsTo('Model\Role');
     }
+
+    public function company()
+    {
+        return $this->hasOne('Model\Company');
+    }
 }
