@@ -23,7 +23,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'project-blog',
+			'database'  => 'blog-laravel',
 			'username'  => 'root',
 			'password'  => 'root',
 			'charset'   => 'utf8',
