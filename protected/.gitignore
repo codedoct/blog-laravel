@@ -1,5 +1,3 @@
-/bootstrap
-/app/storage
 /vendor
 composer.phar
 composer.lock

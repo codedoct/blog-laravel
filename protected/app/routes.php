@@ -16,3 +16,8 @@ Route::group(array('prefix' => ''), function()
 {
 	require app_path().'/routes/web.php';
 });
+
+Route::group(array('prefix' => 'api'), function() 
+{
+	require app_path().'/routes/api.php';
+});
