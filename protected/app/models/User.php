@@ -6,6 +6,7 @@ use Illuminate\Auth\Reminders\RemindableTrait;
 use Illuminate\Auth\Reminders\RemindableInterface;
 use Illuminate\Database\Eloquent\Model;
 use \Eloquent;
+use \Hash;
 
 class User extends Eloquent implements UserInterface, RemindableInterface {
 
@@ -39,5 +40,17 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
     public function company()
     {
         return $this->hasOne('Model\Company');
+    }
+
+    public static function storeUser(array $input)
+    {
+    	$user = new User;
+    	$user->name     = $input['name'];
+		$user->username = $input['username'];
+		$user->email    = $input['email'];
+	    $user->password = Hash::make($input['password']);
+	    $user->save();
+
+	    return $user;
     }
 }

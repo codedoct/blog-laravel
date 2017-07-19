@@ -25,7 +25,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'blog-laravel',
 			'username'  => 'root',
-			'password'  => 'root',
+			'password'  => 'kopassus',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
