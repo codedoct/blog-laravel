@@ -42,14 +42,17 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
         return $this->hasOne('Model\Company');
     }
 
-    public static function storeUser(array $input)
+    public static function storeUserOrUpdate(array $input, $user)
     {
-    	$user = new User;
+    	if (!$user) {
+	    	$user = new User;   		
+		}
+		    	
     	$user->name     = $input['name'];
 		$user->username = $input['username'];
 		$user->email    = $input['email'];
 	    $user->password = Hash::make($input['password']);
-	    $user->save();
+	    $user->save(); 
 
 	    return $user;
     }
