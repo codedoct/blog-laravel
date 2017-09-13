@@ -32,7 +32,7 @@ class UserController extends \BaseController
 		);
 		// dd($_POST);
 		if ($validator->passes()) {
-	    	$user = User::storeUserOrUpdate(Input::all(), null);
+	    	$user = User::storeOrUpdateUser(Input::all(), null);
 		    // dd($_POST);
 	    	$response['status'] = 'OK';
     		$response['result'] = $user;
@@ -75,7 +75,7 @@ class UserController extends \BaseController
 		$user = User::find($id); 
 		if ($user) {
 			if ($validator->passes()) {
-		    	$user = User::storeUserOrUpdate(Input::all(), $user);
+		    	$user = User::storeOrUpdateUser(Input::all(), $user);
 		    	$response['status'] = 'OK';
 	    		$response['result'] = $user;
 		    }
