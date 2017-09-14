@@ -73,6 +73,7 @@ class UserController extends \BaseController
 		);
 
 		$user = User::find($id); 
+		
 		if ($user) {
 			if ($validator->passes()) {
 		    	$user = User::storeOrUpdateUser(Input::all(), $user);
@@ -94,6 +95,7 @@ class UserController extends \BaseController
 	public function deleteUser($id)
 	{
 		$user = User::find($id);
+
 		if ($user) {
 			$user->delete();
 			$response['status'] = 'OK';
